@@ -29,7 +29,8 @@ public class DatabaseViewer extends JFrame {
     private JLabel textGora;
     private JTextArea textDol;
 
-   
+    private JTextArea textSrodek;
+
     public void initComponents(){
         
         addPanel = new JPanel();
@@ -50,7 +51,8 @@ public class DatabaseViewer extends JFrame {
         textDol = new JTextArea();
         this.add(textDol, BorderLayout.SOUTH);
         
-        
+        textSrodek = new JTextArea();
+        this.add(textSrodek, BorderLayout.CENTER);
 
 
 
